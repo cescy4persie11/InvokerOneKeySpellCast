@@ -188,7 +188,7 @@ namespace InvokerLegacyCfg
 
             var spell = args.Ability;
             if ((Game.IsKeyDown(Key.D) && !Game.IsChatOpen && !chaosMeteor.invoked("invoker_chaos_meteor"))
-                || (Game.IsKeyDown(Key.F) && !Game.IsChatOpen && !chaosMeteor.invoked("invoker_forge_spirit")))
+                || (Game.IsKeyDown(Key.F) && !Game.IsChatOpen && !forgeSpirit.invoked("invoker_forge_spirit")))
             {
                 if (args.Order == Order.Ability)
                 {
